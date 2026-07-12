@@ -1,32 +1,4 @@
-// ============================
-// MODE SOMBRE
-// ============================
 
-
-const darkBtn = document.getElementById("darkMode");
-
-
-darkBtn.addEventListener("click",()=>{
-
-
-document.body.classList.toggle("dark");
-
-
-
-if(document.body.classList.contains("dark")){
-
-darkBtn.innerHTML="☀️";
-
-}
-
-else{
-
-darkBtn.innerHTML="🌙";
-
-}
-
-
-});
 
 
 
